@@ -132,7 +132,11 @@ yarn <SCRIPT_NAME>
 	</tr>
 	<tr>
 		<td> <pre>lint</pre> </td>
-		<td>Formats code with prettier, also runs eslint on backend and frontend</td>
+		<td>Checks for code styling issues with prettier, also runs eslint on backend and frontend</td>
+	</tr>
+	<tr>
+		<td> <pre>lint:fix</pre> </td>
+		<td>Formats code with prettier (write mode)</td>
 	</tr>
 	<tr>
 		<td> <pre>storybook</pre> </td>
