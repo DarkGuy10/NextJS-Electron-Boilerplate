@@ -6,17 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  prettier:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-      - name: Prettify code
-        uses: creyD/prettier_action@v4.3
-        with:
-          prettier_options: -c .
-  eslint:
+  lint:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -28,5 +18,5 @@ jobs:
           cache: 'yarn'
       - name: Install dependencies
         run: yarn
-      - name: Run ESLint
+      - name: Run lint script
         run: yarn lint
