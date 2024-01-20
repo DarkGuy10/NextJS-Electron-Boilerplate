@@ -41,7 +41,7 @@
 		"@storybook/addon-links": "^7.6.1",
 		"@storybook/addon-onboarding": "1.0.8",
 		"@storybook/blocks": "^7.6.1",
-		"@storybook/nextjs": "^7.6.1",
+		"@storybook/nextjs": "^7.6.10",
 		"@storybook/react": "^7.6.1",
 		"@storybook/test": "7.6.1",
 		"@storybook/testing-library": "^0.2.2",
