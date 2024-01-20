@@ -28,7 +28,7 @@
 	"packageManager": "yarn@4.0.2",
 	"dependencies": {
 		"electron-is-dev": "^2.0.0",
-		"electron-log": "^5.0.1",
+		"electron-log": "^5.0.3",
 		"electron-store": "^8.1.0",
 		"electron-updater": "^6.1.7",
 		"next": "^14.0.3",
