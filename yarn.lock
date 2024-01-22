@@ -8612,10 +8612,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"electron-is-dev@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "electron-is-dev@npm:2.0.0"
-  checksum: aa540115f144f9c8c788e13fc581be7b0f9f83422eecb940af6367c67d63c3a656e03ad9c1138f17bcfbafc9edca8b83f655feff24dead2cc4866169c6e565f9
+"electron-is-dev@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "electron-is-dev@npm:3.0.1"
+  checksum: 80d37d61d44b8b7af0af90eab622b09e0f165afbc2560297c760356efa93fcb54dbbd13d4d6522da6474e261d630b76b804c86385564a1f3062d28fc59c340bd
   languageName: node
   linkType: hard
 
@@ -13174,7 +13174,7 @@ __metadata:
     electron-builder: "npm:24.9.1"
     electron-debug: "npm:^3.2.0"
     electron-devtools-installer: "npm:^3.2.0"
-    electron-is-dev: "npm:^2.0.0"
+    electron-is-dev: "npm:^3.0.1"
     electron-log: "npm:^5.0.3"
     electron-store: "npm:^8.1.0"
     electron-updater: "npm:^6.1.7"
