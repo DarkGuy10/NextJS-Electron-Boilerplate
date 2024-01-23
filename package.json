@@ -40,7 +40,7 @@
 		"@storybook/addon-interactions": "^7.6.10",
 		"@storybook/addon-links": "^7.6.10",
 		"@storybook/addon-mdx-gfm": "7.6.10",
-		"@storybook/addon-onboarding": "1.0.8",
+		"@storybook/addon-onboarding": "1.0.10",
 		"@storybook/blocks": "^7.6.10",
 		"@storybook/nextjs": "^7.6.10",
 		"@storybook/react": "^7.6.10",
