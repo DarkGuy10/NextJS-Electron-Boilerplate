@@ -1,10 +1,15 @@
 import path from 'node:path'
 import { app, BrowserWindow, ipcMain } from 'electron'
 import log from 'electron-log'
-import { autoUpdater } from 'electron-updater'
+import electronUpdater from 'electron-updater'
 import electronIsDev from 'electron-is-dev'
 import ElectronStore from 'electron-store'
+import { fileURLToPath } from 'url'
+import { dirname } from 'path'
 
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = dirname(__filename)
+const { autoUpdater } = electronUpdater
 let appWindow: BrowserWindow | null = null
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 const store = new ElectronStore()
@@ -19,7 +24,8 @@ class AppUpdater {
 
 if (electronIsDev) {
 	// eslint-disable-next-line @typescript-eslint/no-var-requires
-	require('electron-debug')({
+	const { default: electronDebug } = await import('electron-debug')
+	electronDebug({
 		showDevTools: true,
 		devToolsMode: 'right',
 	})
@@ -32,13 +38,15 @@ const installExtensions = async () => {
 	 * which causes errors in the REACT_DEVELOPER_TOOLS extension.
 	 * A possible workaround could be to downgrade the extension but you're on your own with that.
 	 */
+	/*
 	const {
-		default: installExtension,
+		default: electronDevtoolsInstaller,
 		//REACT_DEVELOPER_TOOLS,
 		REDUX_DEVTOOLS,
-		// eslint-disable-next-line @typescript-eslint/no-var-requires
-	} = require('electron-devtools-installer')
-	installExtension([REDUX_DEVTOOLS]).catch(console.log)
+	} = await import('electron-devtools-installer')
+	// @ts-expect-error Weird behaviour
+	electronDevtoolsInstaller.default([REDUX_DEVTOOLS]).catch(console.log)
+	*/
 }
 
 const spawnAppWindow = async () => {
