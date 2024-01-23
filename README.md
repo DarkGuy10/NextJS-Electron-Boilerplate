@@ -37,7 +37,7 @@
 - Import aliases supported for both main and renderer processes
 - Binaries support auto-updates by default
 - Completely flexible, transparent and customizable structure
-- Typescript supported by default
+- Typescript and ESModules supported by default
 - Intuitive structure to avoid messy codebase
 - Documented <a href="#-scripts">npm scripts</a>
 
@@ -47,12 +47,11 @@
     <tr>
     	<td>
 
-#### ⚠️ Why you might want to use Nextron instead
-
-[Nextron](https://github.com/saltyshiomix/nextron) has been around for long, and has developed quite the userbase (2.8k stars as of writing). Therefore, its a very valid question: why not just use Nextron?
-And the only valid answer is: _flexibiliy_.<br/>
-With Nextron, there's a limit to how much you can tweak your code, and it might actually be a plus point if you want to focus on getting a basic app done.<br />
-However, if you're like me, and you like having full control of your project, and not being at the mercy of a third-party project mantainer, then welcome aboard mate—this is just the thing you were searching for!
+> [!TIP]
+> ​[Nextron](https://github.com/saltyshiomix/nextron) has been around for long, and has developed quite the userbase (2.8k stars as of writing). Therefore, its a very valid question: why not just use Nextron?
+> And the only valid answer is: _flexibiliy_.<br/>
+> With Nextron, there's a limit to how much you can tweak your code, and it might actually be a plus point if you want to focus on getting a basic app done.<br /
+> However, if you're like me, and you like having full control of your project, and not being at the mercy of a third-party project mantainer, then welcome aboard mate—this is just the thing you were searching for!
 
 </td>
   </tr>

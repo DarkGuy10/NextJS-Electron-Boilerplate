@@ -11,14 +11,5 @@ Make sure to add proper typings for the APIs exposed over the context bridge in 
 
 The template comes with [SVGR](https://react-svgr.com/) installed and pre-configured, so you can import SVG files as React components.
 
-<table>
-    <tr>
-    	<td>
-
-#### ⚠️ Note
-
-Do NOT use the inbuilt Link/Image components, since Next is used in SSG mode.
-
-</td>
-  </tr>
-</table>
+> [!WARNING]  
+> Do NOT use the inbuilt Link/Image components, since Next is used in SSG mode.
