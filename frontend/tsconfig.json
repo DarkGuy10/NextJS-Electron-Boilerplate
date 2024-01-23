@@ -16,13 +16,13 @@
 		"incremental": true,
 		"plugins": [
 			{
-				"name": "next"
-			}
+				"name": "next",
+			},
 		],
 		"baseUrl": ".",
 		"paths": {
-			"@/*": ["./*"]
-		}
+			"@/*": ["./*"],
+		},
 	},
 	"include": [
 		"context.d.ts",
@@ -32,7 +32,7 @@
 		".next/types/**/*.ts",
 		"../build/types/**/*.ts",
 		"dist/types/**/*.ts",
-		"build/types/**/*.ts"
+		"build/types/**/*.ts",
 	],
-	"exclude": ["node_modules"]
+	"exclude": ["node_modules"],
 }
