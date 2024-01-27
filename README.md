@@ -34,10 +34,11 @@
 
 - Pre-configured with [Storybook](https://storybook.js.org/), Eslint, [Prettier](https://prettier.io/) and [Electron Builder](https://www.electron.build)
 - [SVGR](https://react-svgr.com/) pre-installed and configred for easily using SVGs as React components
-- Import aliases supported for both main and renderer processes
+- Pre-configured CI/CD workflows through github actions
 - Binaries support auto-updates by default
-- Completely flexible, transparent and customizable structure
 - Typescript and ESModules supported by default
+- Import aliases supported for both main and renderer processes
+- Completely flexible, transparent and customizable structure
 - Intuitive structure to avoid messy codebase
 - Documented <a href="#-scripts">npm scripts</a>
 
