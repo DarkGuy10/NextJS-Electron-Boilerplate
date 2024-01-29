@@ -59,7 +59,7 @@
 		"electron-debug": "^3.2.0",
 		"electron-devtools-installer": "^3.2.0",
 		"eslint": "^8.56.0",
-		"eslint-config-next": "14.0.4",
+		"eslint-config-next": "14.1.0",
 		"eslint-plugin-storybook": "^0.6.15",
 		"prettier": "^3.2.4",
 		"storybook": "^7.6.10",
