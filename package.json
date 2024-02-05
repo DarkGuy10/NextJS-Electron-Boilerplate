@@ -45,7 +45,7 @@
 		"@storybook/blocks": "^7.6.10",
 		"@storybook/nextjs": "^7.6.10",
 		"@storybook/react": "^7.6.10",
-		"@storybook/test": "^7.6.10",
+		"@storybook/test": "^7.6.12",
 		"@storybook/testing-library": "^0.2.2",
 		"@svgr/webpack": "^8.1.0",
 		"@types/node": "^20.11.16",

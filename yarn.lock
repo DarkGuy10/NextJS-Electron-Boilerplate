@@ -3625,6 +3625,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@storybook/channels@npm:7.6.12":
+  version: 7.6.12
+  resolution: "@storybook/channels@npm:7.6.12"
+  dependencies:
+    "@storybook/client-logger": "npm:7.6.12"
+    "@storybook/core-events": "npm:7.6.12"
+    "@storybook/global": "npm:^5.0.0"
+    qs: "npm:^6.10.0"
+    telejson: "npm:^7.2.0"
+    tiny-invariant: "npm:^1.3.1"
+  checksum: 5c2203a2a68a4e2c507df6b0d3a155679d6c1aed18f0e21ef904c08f53e20d4d48cf0cf7dc560a42669d0f0a710a5d14b74336ded185b673e20100ee30406041
+  languageName: node
+  linkType: hard
+
 "@storybook/cli@npm:7.6.10":
   version: 7.6.10
   resolution: "@storybook/cli@npm:7.6.10"
@@ -3682,6 +3696,15 @@ __metadata:
   dependencies:
     "@storybook/global": "npm:^5.0.0"
   checksum: 055ddeedb39a172c1d2f5ee3b3806c8a3fa1b060faea496520aecc513a79661498be1f08ab8720465054bc958910cfceb652b8a725a5254a33e6747a4eb5d869
+  languageName: node
+  linkType: hard
+
+"@storybook/client-logger@npm:7.6.12":
+  version: 7.6.12
+  resolution: "@storybook/client-logger@npm:7.6.12"
+  dependencies:
+    "@storybook/global": "npm:^5.0.0"
+  checksum: fedd28fb7875f0b9e5db313357fa98df74da98bd46ef15104d3e31b5232b2a25ae3f2e445a50e85de1437ba441242aef45883cd86e2cba5e0bc3fe15940c5996
   languageName: node
   linkType: hard
 
@@ -3775,6 +3798,15 @@ __metadata:
   dependencies:
     ts-dedent: "npm:^2.0.0"
   checksum: 9432820a7742621f2eba58e4a121b9f00cf052977d059a32e4e9fe15e877b75c21b4ffd3c925138b59c18c06b3e3ef00c0e67ff3769ee3125e6423cec5a2bc91
+  languageName: node
+  linkType: hard
+
+"@storybook/core-events@npm:7.6.12":
+  version: 7.6.12
+  resolution: "@storybook/core-events@npm:7.6.12"
+  dependencies:
+    ts-dedent: "npm:^2.0.0"
+  checksum: 01f9aa9c0fa7f198ab4d563a51ab45df45a1f50f088127a9290b44ce4756f6bf167b17eb7cd86d98f1534bbff30b6f0c2a41c21b987a2c5e5d6bf9e1db967c5e
   languageName: node
   linkType: hard
 
@@ -3914,18 +3946,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/instrumenter@npm:7.6.10":
-  version: 7.6.10
-  resolution: "@storybook/instrumenter@npm:7.6.10"
+"@storybook/instrumenter@npm:7.6.12":
+  version: 7.6.12
+  resolution: "@storybook/instrumenter@npm:7.6.12"
   dependencies:
-    "@storybook/channels": "npm:7.6.10"
-    "@storybook/client-logger": "npm:7.6.10"
-    "@storybook/core-events": "npm:7.6.10"
+    "@storybook/channels": "npm:7.6.12"
+    "@storybook/client-logger": "npm:7.6.12"
+    "@storybook/core-events": "npm:7.6.12"
     "@storybook/global": "npm:^5.0.0"
-    "@storybook/preview-api": "npm:7.6.10"
+    "@storybook/preview-api": "npm:7.6.12"
     "@vitest/utils": "npm:^0.34.6"
     util: "npm:^0.12.4"
-  checksum: 146210a31fc041b7c2b88c3bbdd3403b7b5d8bfd53c7746b5c7fcc868ae41a8ec1e33d06228f0d42cc5a1521bbccad218db9780261ce87f9fbe260e9b5c25fdd
+  checksum: dd78b345d1540334e5a5e18c458da9fc5f56148eea19c90ba7bc27b070cdcf3a5e6fe40d475ce086ec82727f2c0f758060ca2c4dd0499793ba45e88a4d63694a
   languageName: node
   linkType: hard
 
@@ -4097,6 +4129,28 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@storybook/preview-api@npm:7.6.12":
+  version: 7.6.12
+  resolution: "@storybook/preview-api@npm:7.6.12"
+  dependencies:
+    "@storybook/channels": "npm:7.6.12"
+    "@storybook/client-logger": "npm:7.6.12"
+    "@storybook/core-events": "npm:7.6.12"
+    "@storybook/csf": "npm:^0.1.2"
+    "@storybook/global": "npm:^5.0.0"
+    "@storybook/types": "npm:7.6.12"
+    "@types/qs": "npm:^6.9.5"
+    dequal: "npm:^2.0.2"
+    lodash: "npm:^4.17.21"
+    memoizerific: "npm:^1.11.3"
+    qs: "npm:^6.10.0"
+    synchronous-promise: "npm:^2.0.15"
+    ts-dedent: "npm:^2.0.0"
+    util-deprecate: "npm:^1.0.2"
+  checksum: 10621c2e413e2cbafe1ade5ba15d137122621652ba16d35ba60a89e4539c0aa500d5cfad23dec4421589d603b4b505a8f11a9236d6a90fe904c971a5c4b58186
+  languageName: node
+  linkType: hard
+
 "@storybook/preview@npm:7.6.10":
   version: 7.6.10
   resolution: "@storybook/preview@npm:7.6.10"
@@ -4195,14 +4249,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/test@npm:^7.6.10":
-  version: 7.6.10
-  resolution: "@storybook/test@npm:7.6.10"
+"@storybook/test@npm:^7.6.12":
+  version: 7.6.12
+  resolution: "@storybook/test@npm:7.6.12"
   dependencies:
-    "@storybook/client-logger": "npm:7.6.10"
-    "@storybook/core-events": "npm:7.6.10"
-    "@storybook/instrumenter": "npm:7.6.10"
-    "@storybook/preview-api": "npm:7.6.10"
+    "@storybook/client-logger": "npm:7.6.12"
+    "@storybook/core-events": "npm:7.6.12"
+    "@storybook/instrumenter": "npm:7.6.12"
+    "@storybook/preview-api": "npm:7.6.12"
     "@testing-library/dom": "npm:^9.3.1"
     "@testing-library/jest-dom": "npm:^6.1.3"
     "@testing-library/user-event": "npm:14.3.0"
@@ -4211,7 +4265,7 @@ __metadata:
     "@vitest/spy": "npm:^0.34.1"
     chai: "npm:^4.3.7"
     util: "npm:^0.12.4"
-  checksum: 31b1a06172e43f28e4e0d4c315f7793c05eedf1cce5af7b0a04382b3d3a95ea244e4ef8ce52552b39c889dcd08b2214e53e3cc8ef28adcb701f31a800f89afb9
+  checksum: 4fe798ceaa299e8c82ae25edfc71dd6098a8ad0dafed32e3a9e1d010d806b8459dcb1bad885be1e712a205a0054c162a7cd7b6b09ae5e86c3ad9822831169112
   languageName: node
   linkType: hard
 
@@ -4250,6 +4304,18 @@ __metadata:
     "@types/express": "npm:^4.7.0"
     file-system-cache: "npm:2.3.0"
   checksum: 21a8a3a0820ce934467860c10a170d1abd49dc1a005003a07cc2674cf0f53e188c031b7800573d96debe8c248431d87d543b6d631ab1252554d42e10215a912d
+  languageName: node
+  linkType: hard
+
+"@storybook/types@npm:7.6.12":
+  version: 7.6.12
+  resolution: "@storybook/types@npm:7.6.12"
+  dependencies:
+    "@storybook/channels": "npm:7.6.12"
+    "@types/babel__core": "npm:^7.0.0"
+    "@types/express": "npm:^4.7.0"
+    file-system-cache: "npm:2.3.0"
+  checksum: 22c8beb44368769b0a3dc2350ed1f1e700d55efd0fa9f98d0da49ccf9ace3155c61269b360767103eafc369cc876f4bb885db1d67964e53c0681c169d0743d7e
   languageName: node
   linkType: hard
 
@@ -13072,7 +13138,7 @@ __metadata:
     "@storybook/blocks": "npm:^7.6.10"
     "@storybook/nextjs": "npm:^7.6.10"
     "@storybook/react": "npm:^7.6.10"
-    "@storybook/test": "npm:^7.6.10"
+    "@storybook/test": "npm:^7.6.12"
     "@storybook/testing-library": "npm:^0.2.2"
     "@svgr/webpack": "npm:^8.1.0"
     "@types/node": "npm:^20.11.16"
