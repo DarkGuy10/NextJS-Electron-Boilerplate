@@ -8541,10 +8541,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"electron-log@npm:^5.1.0":
-  version: 5.1.0
-  resolution: "electron-log@npm:5.1.0"
-  checksum: 7a9bcab5a1f516641364711c0f23d440a00962c8f087f18125c89ddcab1da06181de59359e8023ac0824a59d7001a2faf08a61bbd68609ca53feb85815376bc9
+"electron-log@npm:^5.1.1":
+  version: 5.1.1
+  resolution: "electron-log@npm:5.1.1"
+  checksum: 4ca427404d7a660df69146a4d16fcc266f0fa8d1da665b226cda50b8608f7ef032c43bef1330125b692835582afca4e2123602840b3216735c586dd49c16d03c
   languageName: node
   linkType: hard
 
@@ -13086,7 +13086,7 @@ __metadata:
     electron-debug: "npm:^3.2.0"
     electron-devtools-installer: "npm:^3.2.0"
     electron-is-dev: "npm:^3.0.1"
-    electron-log: "npm:^5.1.0"
+    electron-log: "npm:^5.1.1"
     electron-store: "npm:^8.1.0"
     electron-updater: "npm:6.1.7"
     eslint: "npm:^8.56.0"
