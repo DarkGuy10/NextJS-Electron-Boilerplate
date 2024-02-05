@@ -38,7 +38,7 @@
 	},
 	"devDependencies": {
 		"@storybook/addon-essentials": "^7.6.10",
-		"@storybook/addon-interactions": "^7.6.10",
+		"@storybook/addon-interactions": "^7.6.12",
 		"@storybook/addon-links": "^7.6.10",
 		"@storybook/addon-mdx-gfm": "^7.6.10",
 		"@storybook/addon-onboarding": "^1.0.11",
