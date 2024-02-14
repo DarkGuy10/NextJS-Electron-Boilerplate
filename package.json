@@ -50,7 +50,7 @@
 		"@svgr/webpack": "^8.1.0",
 		"@types/node": "^20.11.16",
 		"@types/react": "^18.2.55",
-		"@types/react-dom": "^18.2.18",
+		"@types/react-dom": "^18.2.19",
 		"@typescript-eslint/eslint-plugin": "^7.0.1",
 		"@typescript-eslint/parser": "^7.0.1",
 		"concurrently": "^8.2.2",
