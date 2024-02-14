@@ -4605,7 +4605,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^20.11.16":
+"@types/node@npm:*":
   version: 20.11.16
   resolution: "@types/node@npm:20.11.16"
   dependencies:
@@ -4620,6 +4620,15 @@ __metadata:
   dependencies:
     undici-types: "npm:~5.26.4"
   checksum: 5f1840f26b4c00e6b4945be678644a46e6689ef10d9d7795d587b76059045b99a14ca6075264296e6e91d73e098fe83df9580881278d9a6ce394b368d9c76700
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^20.11.17":
+  version: 20.11.17
+  resolution: "@types/node@npm:20.11.17"
+  dependencies:
+    undici-types: "npm:~5.26.4"
+  checksum: 1f30dae80b416cbf38f133a619ffb0e9fb9e7bc58f82d900bf73816ae5781740c4640892bf5971dd9c12570d5d05241646be3e7540bb4e059322ec6af4e51e15
   languageName: node
   linkType: hard
 
@@ -12292,7 +12301,7 @@ __metadata:
     "@storybook/test": "npm:^7.6.14"
     "@storybook/testing-library": "npm:^0.2.2"
     "@svgr/webpack": "npm:^8.1.0"
-    "@types/node": "npm:^20.11.16"
+    "@types/node": "npm:^20.11.17"
     "@types/react": "npm:^18.2.55"
     "@types/react-dom": "npm:^18.2.18"
     "@typescript-eslint/eslint-plugin": "npm:^7.0.1"
