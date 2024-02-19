@@ -8,3 +8,6 @@ updates:
     commit-message:
       prefix: 'chore'
       include: 'scope'
+    ignore:
+      - dependency-name: '@storybook/*'
+      - dependency-name: 'eslint-plugin-storybook'
