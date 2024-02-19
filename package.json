@@ -37,7 +37,7 @@
 		"react-dom": "^18.2.0"
 	},
 	"devDependencies": {
-		"@storybook/addon-essentials": "^7.6.14",
+		"@storybook/addon-essentials": "^7.6.16",
 		"@storybook/addon-interactions": "^7.6.14",
 		"@storybook/addon-links": "^7.6.14",
 		"@storybook/addon-mdx-gfm": "^7.6.14",
