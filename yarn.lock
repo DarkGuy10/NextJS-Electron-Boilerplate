@@ -4605,7 +4605,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^20.11.17":
+"@types/node@npm:*":
   version: 20.11.17
   resolution: "@types/node@npm:20.11.17"
   dependencies:
@@ -4620,6 +4620,15 @@ __metadata:
   dependencies:
     undici-types: "npm:~5.26.4"
   checksum: 5f1840f26b4c00e6b4945be678644a46e6689ef10d9d7795d587b76059045b99a14ca6075264296e6e91d73e098fe83df9580881278d9a6ce394b368d9c76700
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^20.11.19":
+  version: 20.11.19
+  resolution: "@types/node@npm:20.11.19"
+  dependencies:
+    undici-types: "npm:~5.26.4"
+  checksum: f451ef0a1d78f29c57bad7b77e49ebec945f2a6d0d7a89851d7e185ee9fe7ad94d651c0dfbcb7858c9fa791310c8b40a881e2260f56bd3c1b7e7ae92723373ae
   languageName: node
   linkType: hard
 
@@ -4684,7 +4693,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:>=16, @types/react@npm:^18.2.55":
+"@types/react@npm:*, @types/react@npm:>=16":
   version: 18.2.55
   resolution: "@types/react@npm:18.2.55"
   dependencies:
@@ -4692,6 +4701,17 @@ __metadata:
     "@types/scheduler": "npm:*"
     csstype: "npm:^3.0.2"
   checksum: 6b1c73beafbbc582dc54ffd92b3779f6d850e8f6b5ce5d04b31e9498a3d77bfc416bb08f0d8d63ab4f4649ccd6639996472416871c01c74a528b16a55faeaf38
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:^18.2.56":
+  version: 18.2.56
+  resolution: "@types/react@npm:18.2.56"
+  dependencies:
+    "@types/prop-types": "npm:*"
+    "@types/scheduler": "npm:*"
+    csstype: "npm:^3.0.2"
+  checksum: a6dab9569799538a9e01d340a721ef1a6f5532bd11cae8d8ab9af00dab2edcafaa00950f7bf2f9ae5bbb1839d890e9ac6eb1ea1186200894b7178dde7b503269
   languageName: node
   linkType: hard
 
@@ -12281,8 +12301,8 @@ __metadata:
     "@storybook/test": "npm:^7.6.16"
     "@storybook/testing-library": "npm:^0.2.2"
     "@svgr/webpack": "npm:^8.1.0"
-    "@types/node": "npm:^20.11.17"
-    "@types/react": "npm:^18.2.55"
+    "@types/node": "npm:^20.11.19"
+    "@types/react": "npm:^18.2.56"
     "@types/react-dom": "npm:^18.2.19"
     "@typescript-eslint/eslint-plugin": "npm:^7.0.1"
     "@typescript-eslint/parser": "npm:^7.0.1"
