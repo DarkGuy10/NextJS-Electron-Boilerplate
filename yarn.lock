@@ -3056,9 +3056,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-links@npm:^7.6.14":
-  version: 7.6.14
-  resolution: "@storybook/addon-links@npm:7.6.14"
+"@storybook/addon-links@npm:^7.6.16":
+  version: 7.6.16
+  resolution: "@storybook/addon-links@npm:7.6.16"
   dependencies:
     "@storybook/csf": "npm:^0.1.2"
     "@storybook/global": "npm:^5.0.0"
@@ -3068,7 +3068,7 @@ __metadata:
   peerDependenciesMeta:
     react:
       optional: true
-  checksum: 0b71d34dda9d7a24bf90541b66a757a87c431ee43dc659d7a0e92acae8a9eda5025f62aab1adf3166794d3fb17d39b8078e8cb897d68937261fbb50de7341505
+  checksum: 00e61286dff4e5625d14a18bf9a06570a7e74a051119cdfe26603b684522fd0c69ebdb5f37dbfa577aee93efbc3e5c5efef20b1faba7c9a0fb4368cee00bf6cf
   languageName: node
   linkType: hard
 
@@ -12292,7 +12292,7 @@ __metadata:
   dependencies:
     "@storybook/addon-essentials": "npm:^7.6.14"
     "@storybook/addon-interactions": "npm:^7.6.14"
-    "@storybook/addon-links": "npm:^7.6.14"
+    "@storybook/addon-links": "npm:^7.6.16"
     "@storybook/addon-mdx-gfm": "npm:^7.6.14"
     "@storybook/addon-onboarding": "npm:^1.0.11"
     "@storybook/blocks": "npm:^7.6.14"
