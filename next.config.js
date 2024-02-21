@@ -6,8 +6,6 @@ const nextConfig = {
 	assetPrefix: process.env.NODE_ENV === 'production' ? '.' : undefined,
 	images: {
 		unoptimized: true,
-		loader: 'custom',
-		loaderFile: './customImageLoader.js',
 	},
 	// Configure SVGR
 	webpack(config) {
