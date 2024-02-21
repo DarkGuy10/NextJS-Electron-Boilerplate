@@ -12,7 +12,7 @@ Make sure to add proper typings for the APIs exposed over the context bridge in 
 The template comes with [SVGR](https://react-svgr.com/) installed and pre-configured, so you can import SVG files as React components.
 
 > [!TIP]  
-> You can use the <Image /> component along with static file imports for images like this example.
+> You can use the `<Image />` component along with static file imports for images like this example.
 
 ```tsx
 import Menhera from '@/assets/path/to/menhera.png'
