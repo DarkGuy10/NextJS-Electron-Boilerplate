@@ -74,20 +74,18 @@ Once you're done, just clone _your_ repo (not this template) and install the dep
 │   ├── main.ts
 │   ├── preload.ts
 │   ├── README.md
-│   └── tsconfig.json
-│   ├── .eslintrc.json
+│   ├── tsconfig.json
+│   └── .eslintrc.json
 ├── frontend
 │   ├── app
+│   │   ├── assets
+│   |   │   ├── edit.svg
+│   |   │   └── menhera.png
 │   │   ├── favicon.ico
 │   │   ├── globals.css
 │   │   ├── layout.tsx
 │   │   ├── page.module.css
 │   │   └── page.tsx
-│   ├── public
-│   │   ├── edit.svg
-│   │   ├── menhera.png
-│   │   ├── nextjs.svg
-│   │   └── vercel.svg
 │   ├── context.d.ts
 │   ├── .eslintrc.json
 │   └── tsconfig.json
