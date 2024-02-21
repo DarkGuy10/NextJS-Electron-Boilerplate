@@ -60,13 +60,15 @@ const spawnAppWindow = async () => {
 		return path.join(RESOURCES_PATH, ...paths)
 	}
 
+	const PRELOAD_PATH = path.join(__dirname, 'preload.js')
+
 	appWindow = new BrowserWindow({
 		width: 800,
 		height: 600,
 		icon: getAssetPath('icon.png'),
 		show: false,
 		webPreferences: {
-			preload: path.join(__dirname, 'preload.js'),
+			preload: PRELOAD_PATH,
 		},
 	})
 
