@@ -4,6 +4,11 @@ const nextConfig = {
 	trailingSlash: true,
 	distDir: 'build',
 	assetPrefix: process.env.NODE_ENV === 'production' ? '.' : undefined,
+	images: {
+		unoptimized: true,
+		loader: 'custom',
+		loaderFile: './customImageLoader.js',
+	},
 	// Configure SVGR
 	webpack(config) {
 		const fileLoaderRule = config.module.rules.find(rule =>

@@ -19,7 +19,7 @@
 				"name": "next",
 			},
 		],
-		"baseUrl": ".",
+		"baseUrl": "./app",
 		"paths": {
 			"@/*": ["./*"],
 		},
@@ -33,6 +33,7 @@
 		"../build/types/**/*.ts",
 		"dist/types/**/*.ts",
 		"build/types/**/*.ts",
+		"customImageLoader.js",
 	],
 	"exclude": ["node_modules"],
 }

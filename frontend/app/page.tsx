@@ -1,5 +1,7 @@
 import styles from './page.module.css'
-import EditSVG from '../public/edit.svg'
+import EditSVG from '@/assets/edit.svg'
+import Menhera from '@/assets/menhera.png'
+import Image from 'next/image'
 
 export default function Home() {
 	return (
@@ -11,7 +13,13 @@ export default function Home() {
 						That one boilerplate you couldn{"'"}t find, until now.
 					</h4>
 				</div>
-				<img className={styles.menhera} src="/menhera.png" alt="menhera" />
+				<Image
+					src={Menhera.src}
+					className={styles.menhera}
+					alt="menhera"
+					width={200}
+					height={200}
+				/>
 				<div className={styles.note}>
 					<EditSVG />
 					Get started by editting frontend/app/page.tsx
