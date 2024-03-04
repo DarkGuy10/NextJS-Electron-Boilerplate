@@ -51,7 +51,7 @@
 		"@types/node": "^20.11.21",
 		"@types/react": "^18.2.60",
 		"@types/react-dom": "^18.2.19",
-		"@typescript-eslint/eslint-plugin": "^7.0.2",
+		"@typescript-eslint/eslint-plugin": "^7.1.0",
 		"@typescript-eslint/parser": "^7.0.2",
 		"concurrently": "^8.2.2",
 		"electron": "^29.0.1",
