@@ -1,6 +1,6 @@
 {
 	"name": "nextjs-electron-boilerplate",
-	"version": "3.0.0",
+	"version": "3.1.0",
 	"main": "backend/build/main.js",
 	"private": true,
 	"type": "module",
