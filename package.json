@@ -29,7 +29,7 @@
 	"packageManager": "yarn@4.1.0",
 	"dependencies": {
 		"electron-is-dev": "^3.0.1",
-		"electron-log": "^5.1.1",
+		"electron-log": "^5.1.2",
 		"electron-store": "^8.1.0",
 		"electron-updater": "6.1.8",
 		"next": "^14.1.3",
