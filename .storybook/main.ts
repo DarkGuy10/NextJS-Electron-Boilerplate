@@ -3,22 +3,26 @@ import path from 'path'
 import { TsconfigPathsPlugin } from 'tsconfig-paths-webpack-plugin'
 
 const config: StorybookConfig = {
-	stories: [
+    stories: [
 		'../stories/**/*.mdx',
 		'../stories/**/*.stories.@(js|jsx|mjs|ts|tsx)',
 		'../frontend/**/*.stories.@(js|jsx|mjs|ts|tsx)',
 	],
-	addons: [
-		'@storybook/addon-links',
-		'@storybook/addon-essentials',
-		'@storybook/addon-interactions',
-		'@storybook/addon-mdx-gfm',
-	],
-	framework: {
+
+    addons: [
+        '@storybook/addon-links',
+        '@storybook/addon-essentials',
+        '@storybook/addon-interactions',
+        '@storybook/addon-mdx-gfm',
+        '@chromatic-com/storybook'
+    ],
+
+    framework: {
 		name: '@storybook/nextjs',
 		options: {},
 	},
-	webpackFinal: config => {
+
+    webpackFinal: config => {
 		config.resolve ??= {}
 		config.resolve.plugins ??= []
 		config.resolve.plugins.push(
@@ -29,9 +33,13 @@ const config: StorybookConfig = {
 
 		return config
 	},
-	docs: {
-		autodocs: 'tag',
-	},
-	staticDirs: [{ from: '../frontend/app/assets', to: '/' }],
+
+    docs: {},
+
+    staticDirs: [{ from: '../frontend/app/assets', to: '/' }],
+
+    typescript: {
+        reactDocgen: 'react-docgen-typescript'
+    }
 }
 export default config
