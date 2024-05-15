@@ -26,7 +26,7 @@
 		"storybook": "storybook dev -p 6006",
 		"build-storybook": "storybook build"
 	},
-	"packageManager": "yarn@4.1.0",
+	"packageManager": "yarn@4.2.2",
 	"dependencies": {
 		"electron-is-dev": "^3.0.1",
 		"electron-log": "^5.1.1",
