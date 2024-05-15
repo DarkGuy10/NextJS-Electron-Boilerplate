@@ -22,15 +22,6 @@ class AppUpdater {
 	}
 }
 
-if (electronIsDev) {
-	// eslint-disable-next-line @typescript-eslint/no-var-requires
-	const { default: electronDebug } = await import('electron-debug')
-	electronDebug({
-		showDevTools: true,
-		devToolsMode: 'right',
-	})
-}
-
 const installExtensions = async () => {
 	/**
 	 * NOTE:
@@ -80,6 +71,9 @@ const spawnAppWindow = async () => {
 	appWindow.maximize()
 	appWindow.setMenu(null)
 	appWindow.show()
+
+	if (electronIsDev) appWindow.webContents.openDevTools({ mode: 'right' })
+
 	appWindow.on('closed', () => {
 		appWindow = null
 	})
