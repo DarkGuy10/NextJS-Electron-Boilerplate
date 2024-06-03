@@ -7566,16 +7566,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"electron@npm:^30.0.5":
-  version: 30.0.5
-  resolution: "electron@npm:30.0.5"
+"electron@npm:^30.0.9":
+  version: 30.0.9
+  resolution: "electron@npm:30.0.9"
   dependencies:
     "@electron/get": "npm:^2.0.0"
     "@types/node": "npm:^20.9.0"
     extract-zip: "npm:^2.0.1"
   bin:
     electron: cli.js
-  checksum: 10c0/def59bc54417e4d101f805dad8f174e38b027de674d3a70bec8a4b01717a0b6ddc06e7637c7a648c8426ae0e712e38c6ad419941e00cc1a18fa26cb8d519b6bd
+  checksum: 10c0/98f28e9f905a4734af708e156bab85b924ab196439e383ea5b7c83b884106a1e5684dfb175fb4fd518c91b9276f955aef6e0e06ba9b1f5fe6c8a555bcff46749
   languageName: node
   linkType: hard
 
@@ -11697,7 +11697,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": "npm:^7.9.0"
     "@typescript-eslint/parser": "npm:^7.9.0"
     concurrently: "npm:^8.2.2"
-    electron: "npm:^30.0.5"
+    electron: "npm:^30.0.9"
     electron-builder: "npm:^24.13.3"
     electron-devtools-installer: "npm:^3.2.0"
     electron-is-dev: "npm:^3.0.1"
