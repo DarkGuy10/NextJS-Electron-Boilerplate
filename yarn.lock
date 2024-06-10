@@ -4244,7 +4244,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^20.12.12, @types/node@npm:^20.9.0":
+"@types/node@npm:*, @types/node@npm:^20.9.0":
   version: 20.12.12
   resolution: "@types/node@npm:20.12.12"
   dependencies:
@@ -4259,6 +4259,15 @@ __metadata:
   dependencies:
     undici-types: "npm:~5.26.4"
   checksum: 10c0/5f1840f26b4c00e6b4945be678644a46e6689ef10d9d7795d587b76059045b99a14ca6075264296e6e91d73e098fe83df9580881278d9a6ce394b368d9c76700
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^20.14.2":
+  version: 20.14.2
+  resolution: "@types/node@npm:20.14.2"
+  dependencies:
+    undici-types: "npm:~5.26.4"
+  checksum: 10c0/2d86e5f2227aaa42212e82ea0affe72799111b888ff900916376450b02b09b963ca888b20d9c332d8d2b833ed4781987867a38eaa2e4863fa8439071468b0a6f
   languageName: node
   linkType: hard
 
@@ -11691,7 +11700,7 @@ __metadata:
     "@storybook/react": "npm:^8.1.1"
     "@storybook/test": "npm:8.1.1"
     "@svgr/webpack": "npm:^8.1.0"
-    "@types/node": "npm:^20.12.12"
+    "@types/node": "npm:^20.14.2"
     "@types/react": "npm:^18.3.2"
     "@types/react-dom": "npm:^18.3.0"
     "@typescript-eslint/eslint-plugin": "npm:^7.9.0"
